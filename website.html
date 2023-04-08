@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>website layout image</title>
+
+<style>
+
+*{ 
+  box-sizing:border-box
+}
+body{ 
+   margin:0;
+   background:gray;
+}
+nav{
+     background:#594848
+	 width:100%;
+	 overflow:auto;
+}
+ul{
+      margin:0;
+	  padding:0;
+	  list-style:none;
+}
+li{
+    float:left;
+}
+nav a{
+       width:120px;
+	   display:block;
+	   text-align:center;
+	   font-size:17px;
+	   color-white;
+	   padding:120 10px;
+	   font-family:Arial;
+}
+nav a:hover{
+   background:skyblue;
+   color-black;
+}
+.container{
+  max-width:1200px;
+  margin:auto;
+  background:#f2f2f2;
+  overflow:auto;
+}
+
+.gallery img{
+   width:100%;
+   height:auto;
+}
+.desc{
+   padding:15px;
+   text-align:center;
+}
+
+</style>
+
+
+</head>
+<body>
+<nav>
+       <ul>
+	        <li><a href="#"> home</a></li>
+			<li><a href="#"> news </a></li>
+			<li><a href="#"> download </a></li>
+			<li><a href="#"> gallery </a></li>
+			<li><a href="#"> contact </a></li>
+	   </ul>
+        
+
+</nav>
+<div class ="container">
+ <div class ="home">
+         <img src = "p1.jfif" width="500" height="500">
+           <div class ="desc"> motor printing </div>
+		 </div>
+		 
+ <div class ="news">
+         <img src =" p2.jfif" width="500" height="500">
+           <div class ="desc"> T-shirt printing </div>
+		 </div>
+                
+ <div class ="download">
+         <img src = "p3.jfif" width="500" height="500">
+           <div class ="desc"> car printing </div>
+		 </div>
+
+ <div class ="contact">
+         <img src =" p5.jfif"width="500" height="500">
+           <div class ="desc"> invitation printing </div>
+		 </div>
+		 
+</div>
+</body>
+</html>

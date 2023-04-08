@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>website layout image</title>
+
+<style>
+
+*{ 
+  box-sizing:border-box
+}
+body{ 
+   margin:0;
+   background:gray;
+}
+nav{
+     background:#594848
+	 width:100%;
+	 overflow:auto;
+}
+ul{
+      margin:0;
+	  padding:0;
+	  list-style:none;
+}
+li{
+    float:left;
+}
+nav a{
+       width:120px;
+	   display:block;
+	   text-align:center;
+	   font-size:17px;
+	   color-white;
+	   padding:120 10px;
+	   font-family:Arial;
+}
+nav a:hover{
+   background:skyblue;
+   color-black;
+}
+.container{
+  max-width:1200px;
+  margin:auto;
+  background:#f2f2f2;
+  overflow:auto;
+}
+
+.gallery img{
+   width:100%;
+   height:auto;
+}
+.desc{
+   padding:15px;
+   text-align:center;
+}
+
+</style>
+
+
+</head>
+<body>
+<nav>
+       <ul>
+	        <li><a href="home " target=_blank"> home </a>
+		    <li><a href="home " target=_blank"> about us </a>
+			<li><a href="home " target=_blank"> services</a>
+			<li><a href="home " target=_blank"> our work </a>
+			<li><a href="home " target=_blank"> contact us </a>
+			
+	   </ul>
+        
+
+</nav>
+<div class ="container">
+ <div class ="home">
+         <img src = "p1.jfif" width="500" height="500">
+           <div class ="desc"> motor printing </div>
+		 </div>
+		 
+ <div class ="about us">
+         <img src =" p2.jfif" width="500" height="500">
+           <div class ="desc"> T-shirt printing </div>
+		 </div>
+                
+ <div class ="services">
+         <img src = "p3.jfif" width="500" height="500">
+           <div class ="desc"> car printing </div>
+		 </div>
+<div class ="our work">
+         <img src = "p3.jfif" width="500" height="500">
+           <div class ="desc"> car printing </div>
+		 </div>
+		 
+ <div class ="contact us">
+         <img src =" p5.jfif"width="500" height="500">
+           <div class ="desc"> invitation printing </div>
+		 </div>
+		 
+</div>
+</body>
+</html>
